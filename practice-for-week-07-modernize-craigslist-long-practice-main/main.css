@@ -32,7 +32,7 @@ p.more {
 
 /* Your code here */
 *{
-  font-family: Helvetica Neue, Helvetica, sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
   background-color: whitesmoke;
   color: #464646;
 }
@@ -61,4 +61,92 @@ a:hover {
 a > span:hover {
   font-weight: bold;
   color: #800080;
+}
+
+.page-container {
+  max-width: 1200px;
+}
+
+#leftbar {
+  float: left;
+  padding: 0px 30px 0px 30px;
+  box-sizing: border-box;
+  /* width: 25%; */
+
+}
+
+#center {
+  float: left;
+  padding: 0px 30px 0px 30px;
+  box-sizing: border-box;
+  width: 50%;
+  border: 1px solid #464646;
+  border-radius: 10px;
+}
+
+#rightbar {
+  float: left;
+  padding: 0px 30px 0px 30px;
+  box-sizing: border-box;
+  /* width: 25%;  */
+}
+
+#leftbar, #rightbar {
+  width: 25%;
+}
+
+footer {
+  clear: both;
+}
+
+#center > div {
+  float: left;
+  width: 33%;
+}
+
+#topban h2 {
+  text-align: center;
+}
+
+ul.clfooter {
+  text-align: center;
+  border-top: 1px solid gray;
+  padding: 10px 0px 10px 0px;
+}
+
+ul.clfooter > li {
+  display: inline;
+  padding: 0px 5px 0px 0px;
+}
+
+h4.ban::before {
+  content: "☮️";
+  padding: 0px 5px 0px 0px
+}
+
+td {
+  border: 1px solid #333;
+  text-align: center;
+  /* color: black;
+  opacity: 0.5; */
+}
+
+.cal {
+  border-collapse: collapse;
+}
+
+.cal a:link {
+  color: green;
+  font-weight: bold;
+  /* opacity: 1.5; */
+}
+
+.cal td {
+  color: rgba(0, 0, 0, 0.5);
+  /* opacity: 0.5; */
+}
+
+.cal.today {
+  color: white;
+  background-color: darkviolet;
 }
